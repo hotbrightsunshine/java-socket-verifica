@@ -1,0 +1,5 @@
+.vscode
+target.prefs
+*.class
+*.prefs
+*.project
