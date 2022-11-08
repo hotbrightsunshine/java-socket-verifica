@@ -57,7 +57,6 @@ public class Client
 
         // Riceve dal client i biglietti venduti
         str = reader.readLine();
-        System.out.println(str);
         Message mesgServerReply = Message.fromJSON(str);
         System.out.println("Sono stati venduti questi messaggi: ");
         for(Ticket t : mesgServerReply.tickets){
